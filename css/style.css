@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+}
+
+.div-content{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px;
+    height: 500px;
+    width: 500px;
+}
+
+.content{
+    margin: 20px 20px 20px 20px;
+    height: 460px;
+}
+
+.content h1{
+    text-align: center;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.content img{
+    width: 350px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.answer{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.yes{
+    height: 40px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 10px;
+    color: white;
+    margin-right: 150px;
+    margin-top: 35px;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+}
+
+.yes a{
+    text-decoration: none;
+    color: black;
+}
+
+.no{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: gray;
+    border-radius: 10px;
+    margin-left: 150px;
+    margin-top: 35px;
+    padding: 10px 15px 10px 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px black;
+}
+
+.no:hover{
+    background-color: rgb(175, 173, 173);
+}
+
+.yes:hover{
+    background-color: red;
+}
+
+.yes:hover a{
+    color: white;
+}
